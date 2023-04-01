@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camerry</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav id="navbar" class="navbar navbar-expand-lg top-bar ">
+        <div class="container-fluid contents">
+          <a class="logo-n navbar-brand" href="#">
+            <img src="images/logocamery.png" width="200px" height="45px" alt="logo">
+          </a>
+          <button class="navbar-toggler tog" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div class="navbar-nav menu">
+              <a class="nav-link active text-white" aria-current="page" href="#">PRODUCTS</a>
+              <a class="nav-link text-white" href="#">ABOUT US</a>
+              <a class="nav-link text-white" href="#">MAKING</a>
+              <a class="nav-link text-white" href="#">CAREER</a>
+              <a class="nav-link text-white" href="#">CONTACT</a>
+            </div>
+            <div class="navbar-nav social">
+              <a class="nav-link active" aria-current="page" href="#"><span><i class="bi bi-facebook icon-white"></i></span></a>
+              <a class="nav-link" href="#"><span><i class="bi bi-twitter icon-white"></i></span></a>
+              <a class="nav-link" href="#"><span><i class="bi bi-linkedin icon-white"></i></span></a>
+              <a class="nav-link" href="#"><span<i class="bi bi-instagram icon-white"></i></span></a>
+              <a class="nav-link" href="#"><span><i class="bi bi-youtube icon-white"></i></span></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+    <div class="bcg ">
+        <img class="image-fluid  " src="images/01.png" class="bcg" alt="">
+    </div>
+    <div class="about">
+        <div class="container-fluid">
+            <div class="about2 row align-items-center">
+                <div class="col-lg-6 mb-5">
+                    <div class="about-img">
+                        <img class="scene" src="images/about.png" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <div class="section-header text-left text-white">
+                            <p>About us</p>
+
+                        </div>
+                        <div class="about-text text-white">
+                            <h1 class="text-2 pb-4">The perfect blend <br> of freshness, <br> quality, and taste.</h1>
+                            <p>
+                                Indulge in heavenly scoops of real fruits, rich creamy milk and <br> lip-smacking
+                                natural flavours. Lose yourself in pleasure. Our ice <br> creams are like comfortable
+                                hugs for your taste buds.
+                            </p>
+
+                        </div>
+                        <div class="button">
+                            <button class="buton btn btn-outline-warning" type="button">EXPLORE </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot1 ps-5 bg-dark">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5">
+                    <div class="about-foot">
+                        <div class=" text-left text-warning">
+                            <h2>Get in touch with us.</h2>
+
+                        </div>
+                        <div class="about-text text-warning">
+
+                            <p>
+                                If you have any queries or feedback, we would love to hear from you!
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+
+                        <div class="but text-center ">
+                            <button class="bot btn btn-outline-warning" type="button">CONTACT US </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot2 ps-5 bg-dark">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-lg-4 mb-5">
+                    <div class="foot-l">
+                        <div class="logo-foot">
+                            <a href="#"><img width="200px" height="50px" src="images\logocamery.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="foot-c">
+                        <P>NUTRICREAMS PRIVATE LIMITED <br>
+                            Branch: :XV/274 , M.C Road, Okkal P.O, <br>
+                            Ernakulam, Kerala-683550 <br>
+                            <br>
+
+                            +91 9746 674 440 <br>
+                            toll free no : 1800 889 2080 <br>
+                            flavours@camerry.in
+                        </P>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="foot-r">
+                        <div class="menu-foot">
+                            <a href="#">ABOUT US</a> <br>
+                            <a href="#">MAKING</a><br>
+                            <a href="#">CAREER</a><br>
+                            <a href="#">MEDIA</a><br>
+                            <a href="#">CONTACT</a><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const navEl = document.querySelector('#navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY >= 56) {
+                navEl.classList.add('navbar-scrolled');
+            } else if (window.scrollY < 56) {
+                navEl.classList.remove('navbar-scrolled');
+            }
+        });
+    </script>
+</body>
+
+</html>
